@@ -13,7 +13,7 @@ const PhotoProvider = ({ children }) => {
       try {
         const response = await fetch(PHOTO_URL);
         const data = await response.json();
-        setPhotos(data.photos); // Supongamos que 'photos.json' tiene una estructura como { photos: [ { id: 1, url: 'url1' }, { id: 2, url: 'url2' }, ... ] }
+        setPhotos(data.photos); 
       } catch (error) {
         console.error("Error al cargar fotos:", error);
       }

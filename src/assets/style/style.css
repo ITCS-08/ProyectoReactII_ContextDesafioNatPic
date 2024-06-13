@@ -12,6 +12,34 @@
 .photo-grid img {
   width: 100%;
   height: 200px;
-  width: 200px;
+  width: 210px;
   border-radius: 10px;
+}
+
+.photo-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+button.favorite svg {
+  fill: red;
+  stroke: red;
+}
+
+.icon-heart {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+.favorite-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

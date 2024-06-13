@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Home from "../views/Home";
-import FavoriteImages from "../components/FavoriteImages";
 import NotFound from "../views/NotFound";
+import Favorites from "../views/Favorites";
 
 
 function Router() {
@@ -11,7 +11,7 @@ function Router() {
     <Routes>
 
     <Route path="/" element={<Home />} />
-    <Route path="/favoritos" element={<FavoriteImages />} />
+    <Route path="/favoritos" element={<Favorites />} />
     <Route path="*" element={<NotFound />} /> 
     
     </Routes>

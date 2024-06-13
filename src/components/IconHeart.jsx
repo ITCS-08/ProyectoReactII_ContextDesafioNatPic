@@ -1,8 +1,15 @@
 const IconHeart = ({ filled }) => {
   return (
     <svg
-      width="40px"
+      width="10"
+      height="10"
       viewBox="0 0 24 24"
+      fill={filled ? 'red' : 'none'}
+      stroke={filled ? 'red' : 'currentColor'}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className="icon-heart"
     >
       <path
         fill={filled ? "red" : "white"}
